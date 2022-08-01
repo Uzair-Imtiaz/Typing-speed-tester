@@ -16,10 +16,8 @@ def speed(stime, etime, input):
     spd = len(input) / time_dif
     return round(spd)
 
-test = ['Enter the size of list',
-'Enter the integer elements of list',
-'Try the new cross platform']
-test1 = random.choice(test)
+input = [ ]
+test1 = random.choice(imput)
 print("Typing test")
 print(test1)
 print('''
